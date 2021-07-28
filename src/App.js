@@ -22,7 +22,7 @@ function App() {
   useEffect(() => {
     //will run once when app component loads because we kept [] .
     auth.onAuthStateChanged((authUser) => {
-      console.log("THE USER IS >>>>", authUser);
+      // console.log("THE USER IS >>>>", authUser);
 
       if (authUser) {
         //user just logged in
